@@ -1,4 +1,54 @@
+/* Reset some default styles for clarity */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
 body {
-  background-color: blue;
-  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  height: 5vh;
+  background-color: #333;
+  color: #fff;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.landing {
+  height: 45vh;
+  background-image: url("https://media.istockphoto.com/id/1482915045/photo/multiracial-team-of-engineers-or-architects-having-a-meeting-in-an-office.jpg?s=2048x2048&w=is&k=20&c=3QtaOxMSVpDPWudjzt5OBZKqgkEjnB7lv5qgkxRYAOc=");
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  height: 45vh;
+}
+
+.footer {
+  height: 5vh;
 }
